@@ -1,0 +1,127 @@
+
+
+#header {
+   
+    padding:5px;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+    height: 70px;
+    
+  }
+  #header a {
+      color:white;
+  }
+  #header a:hover{
+    color:red;
+    background-color: black;
+}
+
+.nav {
+  
+}
+.wrapper {
+    width:40px;
+    height:40px;
+    margin: 4px;
+    overflow: hidden;
+    border-radius:50%;
+    position: relative;
+  }
+
+  #header a img {
+    margin-top:-15px;
+    height: 50px; 
+    width: 100px;
+   
+  }  
+
+ .fa-bell {
+     color: white;
+ }
+
+  /* CSS used here will be applied after bootstrap.css */
+.badge-notify{
+    background:red;
+    position:relative;
+    top: -15px;
+    left: -14px;
+   }
+
+  /* CSS used here will be applied after bootstrap.css */
+
+
+.dropbtn {
+  
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding-bottom:10px;
+  margin:0;
+}
+
+#header .dropdown img { 
+  top:00%;
+  left:0%;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  margin: 0;
+  border: 1px solid #393939
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  top: 60px;
+  right: 0;
+  min-width: 160px;
+  min-height: 200px;
+  padding:0px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top:5px;
+  border: 1px solid gray; 
+  
+}
+.dropdown-content-note {
+  position: absolute;
+  display: none;
+  top: 60px;
+  right: 0;
+  min-width: 250px;
+ 
+  padding:0px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top:5px;
+  border: 1px solid gray; 
+  
+}
+
+.dropdown-content a {
+  
+  color: black;
+  padding: 5px 5px 5px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-note a {
+  
+  color: black;
+  padding: 5px 5px 5px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content-note {display: block;}
+

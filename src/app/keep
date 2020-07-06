@@ -1,0 +1,50 @@
+        
+                          
+        
+        
+        
+        
+        
+        
+        
+        
+        <ul class="nav navbar navbar-nav navbar-right">
+ 
+          <li style=" margin-right: 28px;">
+
+            <i class='fas fa-search' style="margin-top:17px; color:white; font-size:21px"></i>
+        
+          </li>          
+          
+        
+          <li style=" margin-right: 0px;">
+          
+              <i class="fa fa-bell" style="margin-top:13px; font-size:26px; margin-right:0px ;"></i>
+              
+              <span class="badge badge-notify">3</span>
+            
+        </li>
+
+        <li routerLinkActive="active">
+            <a routerLink="users">KIDS</a>
+        </li>
+        
+        <li class="dropdown">
+            
+              <button class="dropbtn">
+
+                  <img src="/assets/images/img_avatar.png" alt="" />
+                  &nbsp;<i style="color: white; font-size:20px; " class="fa fa-caret-down"></i>
+
+              </button>
+
+
+                  <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <hr>
+                      <a href="#">Link 3</a>
+                    </div>
+
+        </li>           
+      </ul>
